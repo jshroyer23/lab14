@@ -1,1 +1,75 @@
 /* TODO: Make it awesome */
+
+body {
+    margin: 0 auto;
+    width: 1200px;
+}
+header > h1 {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    }
+
+a {
+    color: whitesmoke;
+    font-size: x-large;
+ }
+
+nav {
+    /* float: right; */
+  padding-right: 60px;
+    margin-top: 42px;
+    margin-bottom: 20px;
+    background-color: cornflowerblue;
+    width: 100%;
+  text-align: right;
+    /*   position: relative; */
+    padding: 20px;
+}
+
+ul li {
+    display: inline;
+}
+
+nav ul {
+    display: inline;
+    /* margin-right: 60px; */
+    margin-top: 42px;
+    font-size: 20px;
+    text-align: center;
+    background: 100%;
+    padding-bottom: 20px;
+  }
+
+.card {
+    color: purple;
+    margin-top: 100px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ol {
+    list-style: none; /* Remove default bullets */
+    margin-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  ol li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: red; /* Change the color */
+    font-weight: 300; /* If you want it to be bold */
+    display: inline-block; /*Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+    margin-top: 10px;
+  }
+
+footer {
+    border-top: midnightblue;
+    margin-top: 100px;
+    text-align: center;
+    font-style: italic;
+}
+

@@ -1,1 +1,140 @@
 /* TODO: Make it awesome */
+
+html {
+  background: url(/img/backgroundOrange.jpg) no-repeat center center fixed;
+  background-size: 100% 100%;
+}
+
+
+
+body {
+    margin: 0 auto;
+    width: 100%;
+    /* background-color: lightgrey; */
+}
+
+main:first-of-type header > h1 {
+    text-align: center;
+    font-size: 65px;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+    text-align: left;
+    color: rgb(218, 123, 16);
+}
+
+h1 {
+  text-align: right;
+    font-size: 100px;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+    text-align: left;
+}
+
+a {
+    color: whitesmoke;
+    font-size: x-large;
+ }
+
+nav {
+    float: right;
+    padding-right: 60px;
+    margin-top: 42px;
+    margin-bottom: 20px;
+    background-color: goldenrod;
+    width: 100%;
+    text-align: right;
+    /*   position: relative; */
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul li {
+    display: inline;
+}
+
+nav ul {
+    display: inline;
+    /* margin-right: 60px; */
+    /* margin-top: 42px; */
+    font-size: 20px;
+    text-align: left;
+    background: 100%;
+    padding-bottom: 25px;
+  }
+
+/* .card :not(.copy) {
+  color: rgb(218, 123, 16);
+  margin-top: 100px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: ;
+} */
+
+/* .copy :not(.card) {
+  color: black;
+  
+} */
+
+/* .card :not(header) {
+  background-color: aliceblue;
+} */
+
+/* .card:first-child {
+  background-color: lightpink;
+  color: purple;
+  margin-top: 100px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+} */
+
+fieldset {
+  background-color: rgba(245, 164, 66, .2);
+  /* height: 100px; */
+  text-align: center;
+  /* display: inline; */
+  padding-top: 70px;
+  width: 70%;
+  font-size: xx-large;
+}
+
+
+ol {
+    list-style: none; /* Remove default bullets */
+    margin-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  ol li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: red; /* Change the color */
+    font-weight: 200; /* If you want it to be bold */
+    display: inline; /*Needed to add space between the bullet and the text */
+    /* width: 1em; Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+    /* margin-top: 10px; */
+    font-size: xx-large;
+  }
+
+footer {
+  display: block;  
+  border-top: midnightblue;
+  margin-top: 100px;
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+
+/* .catalog {
+  margin-bottom: 20px;
+} */
+
+
+/* Notes; */
+/* .card:last-child is the Shop Our Catalog and li elements */
+/* .card:first-child is the above and the catalog, item, quantity, box, and button */
+/*header Affects both the page header and Shop Our Catalog header*/
